@@ -1,0 +1,130 @@
+/* dac diem chung */
+* {  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* dac diem header-menu */
+.header-menu {
+    height: 150px;
+    width: 100%;
+    
+    /* background cua menu */
+    background-image: url("../image/header_background.jpg");
+    background-size: 100%;
+    background-position: center;
+
+    /* fixed menu */
+    position: fixed;
+    top: 0;
+}
+
+/* dac diem menu-content */
+.menu-content{
+    /*size cua menu */
+    height: 100px;
+    width: 100%;
+
+    /* flex menu */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* decorate menu */
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-link:link, .menu-link:visited {
+    color: blue;
+}
+
+.menu-link:hover {
+    color: red;
+}
+
+.menu-logo img {
+    width: 150px;
+}
+
+.search-bar {
+    text-align: center;
+}
+
+.search-bar input{
+    width: 400px;
+}
+
+/* dac diem phan than */
+.hero-section{
+    padding-top: 200px;
+    background: white;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.anime{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+.anime img{
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 20px;
+    width: 200px;
+}
+
+.anime a {
+    text-decoration: none;
+}
+
+.anime a:link, .anime a:visited {
+    color: orange;
+}
+
+.anime a:hover {
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
+
+/* dac diem footer */
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+} 
+
+/* responsive rules for section */
+
+/* reponsive rules for header */
+/* @media screen and (max-width: 661px) {
+    .mobile{
+        display: inline-block;
+    }
+    .desktop{
+        display: none;
+    }
+    .logo{
+        position: relative;
+        top: 40px;
+    }
+    header{
+        height: 100px;
+    }
+}
+
