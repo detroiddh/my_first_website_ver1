@@ -10,9 +10,35 @@
     <body> 
         <header>
             <nav class="header-menu">
+                <div class="topbar" id="user-info">
+                    <div class="greeting">
+                        Hi, <span id="username">username</span>
+                    </div>
+
+                    <div class="avatar">
+                        <svg viewBox="0 0 24 24" fill="white">
+                            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 
+                                    7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4
+                                    c-3.2 0-9.6 1.6-9.6 4.8V22h19.2v-2.8
+                                    c0-3.2-6.4-4.8-9.6-4.8z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown">
+                    <button class="dropdown-item">Account</button>
+                    <button class="dropdown-item" id="signOutBtn">Sign out</button>
+                </div>
+                <div class="sign_in_up">
+                    <a href="..\..\login\code\login.html" class="sign_in-link">
+                        <button class="button-sign_in">Sign in</button>
+                    </a>
+                    <a href="..\..\sign_up\code\sign_up.html" class="sign_up-link">
+                        <button class="button-sign_up">Sign up</button>
+                    </a>
+                </div>
                 <ul class="menu-content">
                     <li class="menu-items">
-                        <a href="#" class="menu-logo">
+                        <a href="index.html" class="menu-logo">
                             <img src="../image/website_logo.png" alt="img_error">
                         </a>
                     </li>
@@ -38,7 +64,7 @@
                     </li>
                     <li class="menu-items">
                         <a href="most_airing.html" class="menu-link">
-                            Most Airing
+                            Most Favorite
                         </a>
                     </li>
                 </ul>
@@ -65,6 +91,12 @@
                 <a href="https://www.google.com/search?q=naruto&sca_esv=32ca325115a25832&sxsrf=AE3TifMQQQUSjlLuK-hFckecd903gm1aGg%3A1751731856838&source=hp&ei=kE5paJD0MOmAvr0Psdz3YA&iflsig=AOw8s4IAAAAAaGlcoD5CTXzmRFIi2AImevMahslTU15X&oq=naru&gs_lp=Egdnd3Mtd2l6IgRuYXJ1KgIIADIKECMYgAQYJxiKBTIHECMY8AUYJzIKECMY8AUYJxjJAjIKEAAYgAQYQxiKBTIIEC4YgAQY1AIyCxAuGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEi4E1AAWN8DcAB4AJABAJgBeKABsAOqAQMxLjO4AQPIAQD4AQGYAgSgAt4DwgIEECMYJ8ICChAuGIAEGEMYigXCAg4QLhiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgIFEC4YgATCAgsQLhiABBjRAxjHAcICCBAuGIAEGLEDmAMAkgcDMC40oAezPbIHAzAuNLgH3gPCBwUyLTIuMsgHJw&sclient=gws-wiz">
                     <img src="../image/naruto.jpg" alt="anime naruto">
                     <figcaption>NARUTO</figcaption>
+                </a>
+            </figure>
+            <figure class="anime" id = "jojo">
+                <a href="https://www.google.com/search?sca_esv=b74c7e5c2b0c4e82&sxsrf=ANbL-n7ZkRNhHYZl_MjB_foUw2_PG7CR7g:1771603208837&q=jojo&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbNuUcvQY_iKbenSObIdQPN5IGgSLVG6T2sfJnyIA5X5omuDkaTLGTdTk415oOfkh9aFn40QDoz3MU35paKwsiZUXFr2IA3ZAJci_KS9Etusiz80ZuzJc9vLZOZuEcAymZMtW2Aw&sa=X&ved=2ahUKEwjghMifuOiSAxUYgFYBHV9OL7UQ0pQJegQIDBAB&biw=1280&bih=551&dpr=1.5">
+                    <img src="../image/jojo.jpg" alt="anime jojo">
+                    <figcaption>JOJO</figcaption>
                 </a>
             </figure>
         </section>

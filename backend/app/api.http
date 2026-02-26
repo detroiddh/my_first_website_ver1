@@ -1,0 +1,18 @@
+POST http://127.0.0.1:8000/sign_up
+Content-Type: application/json
+
+{
+    "username" : "hddiorted",
+    "email" : "donghung207@gmail.com",
+    "password" : "Hung2007@"
+}
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{
+    "username" : "hddiorted",
+    "password" : "Hung2007"
+}

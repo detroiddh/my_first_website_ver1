@@ -21,6 +21,101 @@
     top: 0;
 }
 
+/* dac diem account */
+
+.topbar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.greeting {
+    font-size: 10px;
+}
+
+.greeting span {
+    font-weight: bold;
+}
+
+.avatar {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.avatar:hover {
+    opacity: 0.8;
+}
+
+.avatar svg {
+    width: 28px;
+    height: 28px;
+}
+
+/* dac diem sign out */
+
+.dropdown {
+    position: absolute;
+    top: 45px;
+    right: 5px;
+    width: 120px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    padding: 10px;
+    display: none;
+}
+
+.dropdown-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.dropdown.show {
+    display: block;
+    text-align: center;
+}
+
+/* dac diem button login */
+.sign_in_up {
+    display: none;
+    position: absolute;
+    right: 5px;
+    padding: 6px;
+}
+
+.button-sign_in, .button-sign_up {
+    top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid gray;
+    transition: opacity 0.3s ease;
+}
+
+.button-sign_in:hover, .button-sign_up:hover {
+    opacity: 0.8;
+}
+
 /* dac diem menu-content */
 .menu-content{
     /*size cua menu */
@@ -36,6 +131,8 @@
     list-style: none;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 
 .menu-link {
@@ -44,7 +141,7 @@
 }
 
 .menu-link:link, .menu-link:visited {
-    color: blue;
+    color: black;
 }
 
 .menu-link:hover {
